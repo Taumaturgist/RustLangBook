@@ -15,6 +15,7 @@ fn main() {
 
         let scale = scale.trim();
 
+        // switch construction would be better, if I knew it at the moment
         if scale == "f" {
             println!("Fahrenheit input confirmed!");
             convert_fahr2cels();
