@@ -8,7 +8,6 @@ fn main() {
 
         let mut scale = String::new();
         
-
         io::stdin()
             .read_line(&mut scale)
             .expect("Failed to read line");
