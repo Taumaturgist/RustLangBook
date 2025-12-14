@@ -47,9 +47,8 @@ fn main() {
     }    
 }
 
-fn calculate_fibonacci_pos (num: i16) -> i128 {
+fn calculate_fibonacci_pos (index: i16) -> i128 {
 
-   let index = num;
    let mut counter: i16;
    let mut result: i128 = 0;
    let mut fib_minus_one: i128;
